@@ -51,54 +51,54 @@ async def _clear_(chat_id):
 class Call(PyTgCalls):
     def __init__(self):
         self.userbot1 = Client(
-            name="AnonXAss1",
+            name="LegendXAss1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
         )
         self.one = PyTgCalls(
             self.userbot1,
-            cache_duration=100,
+            cache_duration=1000,
         )
         self.userbot2 = Client(
-            name="AnonXAss2",
+            name="LegendXAss2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
         )
         self.two = PyTgCalls(
             self.userbot2,
-            cache_duration=100,
+            cache_duration=1000,
         )
         self.userbot3 = Client(
-            name="AnonXAss3",
+            name="LegendXAss3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
         )
         self.three = PyTgCalls(
             self.userbot3,
-            cache_duration=100,
+            cache_duration=1000,
         )
         self.userbot4 = Client(
-            name="AnonXAss4",
+            name="LegendXAss4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
         )
         self.four = PyTgCalls(
             self.userbot4,
-            cache_duration=100,
+            cache_duration=1000,
         )
         self.userbot5 = Client(
-            name="AnonXAss5",
+            name="LegendXAss5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
         )
         self.five = PyTgCalls(
             self.userbot5,
-            cache_duration=100,
+            cache_duration=1000,
         )
 
     async def pause_stream(self, chat_id: int):
